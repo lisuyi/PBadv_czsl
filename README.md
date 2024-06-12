@@ -36,7 +36,7 @@ Before you run our code, please check the file and dataset structure:
     │        
     └─...      
 ```
-**Sample**: the pre-trained weight of ViT-B is as same as [ADE](https://haoosz.github.io/ade-czsl/), we offer a quick link:[Backbone_weight](https://haoosz.github.io/ade-czsl/);
+**Sample**: the pre-trained weight of ViT-B is as same as [ADE](https://haoosz.github.io/ade-czsl/), we offer a quick link:[Backbone_weight](https://drive.google.com/file/d/1tVCnNKIMI5HaXT73jgSnvy01Kn4kDw5Q/view?usp=sharing)
 ### Environment
 We recommend using Anaconda for environment setup. For simplicity, we have exported the environments we applied:
 
