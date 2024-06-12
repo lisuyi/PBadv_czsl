@@ -36,6 +36,7 @@ Before you run our code, please check the file and dataset structure:
     │        
     └─...      
 ```
+**Sample**: the pre-trained weight of ViT-B is as same as [ADE](https://haoosz.github.io/ade-czsl/), we offer a quick link:[Backbone_weight](https://haoosz.github.io/ade-czsl/);
 ### Environment
 We recommend using Anaconda for environment setup. For simplicity, we have exported the environments we applied:
 
@@ -47,7 +48,7 @@ We recommend using Anaconda for environment setup. For simplicity, we have expor
 ## Quick Validation
 
 We save the training weights of our model in folder `validation`,  
-**Sample**: Take MIT-States in the closed-world setting for example:
+**Sample**: Take MIT-States in the closed-world setting for example and the model weights can be downloaded from [model_weight](https://drive.google.com/file/d/12LAvAAzanbCTi5UowmZ6JFFTOteGrP46/view?usp=sharing);:
 
 ```
     python test.py --config 'configs/mit.yml'  --logpath ./validation/mit/
