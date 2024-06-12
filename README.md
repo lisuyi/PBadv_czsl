@@ -1,2 +1,0 @@
-# PrBaAdv_czsl
-Previous notable works primarily addressed the Compositional Zero-Shot Learning (CZSL) problem by focusing on disentangling strategies or utilizing object-based conditional probabilities to constrain the selection space of attributes. In contrast, we propose a model-agnostic Primitive-Based Adversarial (PrBaAdv) training method to address this issue. The code will be made publicly available at the time of paper review.
