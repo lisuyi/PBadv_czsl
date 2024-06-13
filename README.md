@@ -11,7 +11,7 @@ The PyTorch implementation of 2024 works [Learning Contextual Interaction via Pr
 The datasets and the necessary configuration files can be accessed as referenced in: [CGE](https://github.com/ExplainableML/czsl). 
 Before you run our code, please check the file and dataset structure:
 ```
- PrBaAdv
+ PBadv
     └─ configs
     │     └─... 
     └─ data  
