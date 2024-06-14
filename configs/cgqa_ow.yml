@@ -1,0 +1,49 @@
+experiment:
+  name: cgqa/log
+
+dataset:
+  data_dir: cgqa
+  dataset: cgqa
+  splitname: compositional-split-natural
+
+model_params:
+  model: VIT-base
+  dropout: true
+  norm: true
+  nlayers: 3
+  fc_emb: 1024,2048
+  emb_dim: 768
+  emb_init: glove
+  image_extractor: vit-base
+  use_calibration: false
+  use_os_osp: false
+  train_only: true
+  open_world: true
+training:
+  max_epochs: 200
+  batch_size: 64
+  test_batch_size: 32
+  start_syn: 40
+  eval_val_every: 1
+  test_set: val
+  cosine_scale_p: 60
+  cosine_scale_so: 140
+  calibration_weights: 0.02
+  lr: 2.0e-05
+  wd: 5.0e-05
+  lrg: 5.0e-06
+  margin: 2
+  attr_loss_w: 1.0
+  obj_loss_w: 1.0
+  norm_family: imagenet
+  save_every: 10000
+  topk: 1
+  workers: 8
+  finetune_backbone: false
+  use_precomputed_features: true
+  freeze_features: false
+  load_save_embeddings: true
+
+validating:
+  attr_score_weight: 1.0
+  obj_score_weight: 1.0
