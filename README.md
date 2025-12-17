@@ -1,6 +1,6 @@
 
-# Contextual Interaction via Primitive-based Adversarial Training for Compositional Zero-shot Learning
-The PyTorch implementation of 2024 works [Contextual Interaction via Primitive-based Adversarial Training for Compositional Zero-shot Learning](https://arxiv.org/abs/2406.14962). 
+# Contextual Interaction via Primitive-based Adversarial Training for Compositional Zero-shot Learning (TOMM,2025)
+The PyTorch implementation of 2025 works [Contextual Interaction via Primitive-based Adversarial Training for Compositional Zero-shot Learning](https://arxiv.org/abs/2406.14962). 
 
 
 <p align="center">
